@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "stautofilesbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ST_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001619783099'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'st_movie_searching_group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
