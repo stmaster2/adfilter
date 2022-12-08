@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/stmoviessearchbot')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/c/GreyMattersBot"),
+                InlineKeyboardButton('⚡ JOIN_GROUP ⚡', url=f"https://t.me/st_movie_searching_group"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/GreyMattersBot'),
+            InlineKeyboardButton('⚡ JOIN_GROUP ⚡', url='https://t.me/st_movie_searching_group'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/stmoviessearchbot')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/GreyMattersBot'),
+            InlineKeyboardButton('⚡ JOIN_GROUP ⚡', url='https://t.me/st_movie_searching_group'),
             InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/stmoviessearchbot')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
