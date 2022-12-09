@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5601859074:AAF14LKuhLqMuu5JoaTr5rSnm9Lnx5W
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://t.me/c/1613135994/5653')).split()
+PICS = (environ.get('PICS', 'https://winter.anuragcloud.workers.dev/0:/AnuragCloud/file_120.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5076254266').split()]
